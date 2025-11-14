@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "property-management": {
+      "command": "uv",
+      "args": [
+        "run",
+        "python",
+        "main.py"
+      ],
+      "cwd": "/Users/henrycorkran/mystery_dungeon/vibecoding/real_estate",
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      },
+      "metadata": {
+        "name": "Property Management Agent",
+        "description": "MCP server for real estate property management with RAG Q&A, tour scheduling, and offer processing",
+        "version": "0.1.0",
+        "capabilities": [
+          "RAG-backed property document search",
+          "Calendly tour scheduling integration",
+          "Offer management with SQLite",
+          "Document ingestion and retrieval"
+        ]
+      }
+    }
+  }
+}

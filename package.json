@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@auth/supabase-adapter": "^1.11.1",
+    "@modelcontextprotocol/sdk": "^1.22.0",
     "@supabase/supabase-js": "^2.81.1",
     "@types/leaflet": "^1.9.21",
     "leaflet": "^1.9.4",
